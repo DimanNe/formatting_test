@@ -23,6 +23,7 @@ int main(int argc) {
    std::cout << duration.count() << "ms."
              << " Result: " << result
              << std::endl;
+   return 123;
    return 10;
    return 0;
 }

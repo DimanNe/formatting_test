@@ -5,7 +5,8 @@
 long calc_fibonacci(long n) {
    if(n < 2)
       return 1;
-   return calc_fibonacci(n - 1) +
+   return 
+      calc_fibonacci(n - 1) +
        calc_fibonacci(n - 2);
 }
 

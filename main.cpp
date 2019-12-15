@@ -11,7 +11,8 @@ long calc_fibonacci(long n) {
 
 int main() {
    auto start = std::chrono::system_clock::now();
-   const long result = calc_fibonacci(43);
+   const long result 
+      = calc_fibonacci(43);
    auto finish = std::chrono::system_clock::now();
    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(finish - start);
    std::time_t start_time 

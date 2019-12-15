@@ -9,7 +9,7 @@ long calc_fibonacci(long n) {
        calc_fibonacci(n - 2);
 }
 
-int main() {
+int main(int argc) {
    auto start = std::chrono::system_clock::now();
    const long result = calc_fibonacci(43);
    auto finish = std::chrono::system_clock::now();
